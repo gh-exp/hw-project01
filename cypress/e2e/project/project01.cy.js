@@ -81,7 +81,7 @@ describe("Homework01 - Cypress-Project-01", () => {
   });
 
 
-  it.only("Test Case 10 - Validate the form submission", () => {
+  it("Test Case 10 - Validate the form submission", () => {
     cy.visit("https://techglobal-training.com/frontend/project-1");
     cy.get('.input').first().type('John Doe');
     cy.get('.mr-1').first().click();
